@@ -1,0 +1,20 @@
+.searchBar{
+    height: 3rem;
+    background-color: white;
+    width: 100vw;
+    margin: 1rem 2px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.options p {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+@media screen and (max-width: 700px){
+    .options {
+        text-align: center;
+    }
+}

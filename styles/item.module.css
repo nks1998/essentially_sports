@@ -1,0 +1,31 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+}
+.mainContainerZero{
+    display: flex;
+    flex-direction: column;
+    grid-row: 1 / span 3;
+    border-bottom: 1px solid grey;
+}
+.mainContainer:hover{
+    cursor: pointer;
+}
+.image{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+}
+.imageZero{
+    width: 350px;
+    height: 300px;
+    padding-bottom: 10px;
+    align-self: left;
+}
+.image:hover, .imageZero:hover{
+    opacity: .5;
+}
+.title:hover{
+    text-decoration: underline;
+}
